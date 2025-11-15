@@ -1,0 +1,17 @@
+raw_folder: "data/raw"
+chunks_folder: "data/chunks"
+manifest_path: "data/manifests/manifest.json"
+vector_db_path: "data/chroma"
+
+max_documents: 10
+max_file_size_mb: 50
+
+chunk_size_tokens: 1000
+chunk_overlap_tokens: 200
+
+embedding_model_name: "BAAI/bge-base-en-v1.5"
+ocr_model_name: "microsoft/trocr-base-printed"
+
+k_retrieval: 5
+
+llm_model_name: "llama-3.3-70b-versatile"

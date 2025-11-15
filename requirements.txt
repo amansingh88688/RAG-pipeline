@@ -1,0 +1,16 @@
+langchain
+langchain-community
+langchain-core
+langchain-groq
+python-dotenv
+langchain-chroma
+chromadb
+sentence-transformers
+transformers
+torch
+python-dotenv
+requests
+pypdf
+Pillow
+numpy
+tqdm

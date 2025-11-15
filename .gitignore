@@ -1,0 +1,45 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Environment files
+.env
+*.env
+
+# HuggingFace / model caches
+huggingface/
+hf_cache/
+transformers_cache/
+.cache/
+
+# Chroma vector database
+data/chroma/
+
+# Generated chunk files
+data/chunks/
+
+# Manifest file (auto-generated)
+data/manifests/manifest.json
+
+# Raw uploaded documents (private files)
+data/raw/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Editors
+.vscode/
+.idea/
